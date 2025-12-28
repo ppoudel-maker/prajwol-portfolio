@@ -1,54 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prajwol | Personal Archive</title>
-  <style>
-    body { font-family: Arial, sans-serif; background:#0f172a; color:#e5e7eb; margin:0; }
-    header { padding:2rem; background:#020617; }
-    h1 { margin:0; }
-    section { padding:2rem; }
-    .card { background:#020617; padding:1.5rem; border-radius:12px; margin-bottom:1.5rem; }
-    input, button { margin-top:0.5rem; }
-    footer { text-align:center; padding:1rem; font-size:0.9rem; opacity:0.6; }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Prajwol</h1>
-    <p>Personal Archive • Photos • Documents • Research</p>
+
+   <body>
+  <!-- Header / Hero Section -->
+  <header style="text-align: center; padding: 60px 20px; background: #f4f4f4;">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm Prajwol — aspiring Neuroscientist /   / creator</p>
   </header>
 
-  <section>
-    <div class="card">
-      <h2>About</h2>
-      <p>This is my personal website where I share photos, documents, and academic papers for review.</p>
-    </div>
+  <!-- Projects Section -->
+  <section style="padding: 60px 20px; max-width: 1200px; margin: 0 auto;">
+    <h2 style="text-align: center; margin-bottom: 40px;">My Work</h2>
 
-    <div class="card">
-      <h2>Upload Files</h2>
-      <p>(Local demo only – backend needed for real sharing)</p>
-      <input type="file" multiple />
-    </div>
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
 
-    <div class="card">
-      <h2>Papers & Docs</h2>
-      <ul>
-        <li>Alzheimer's Research Draft.pdf</li>
-        <li>Neuroscience Notes.docx</li>
-        <li>Poster – PP2 Protein Study.pdf</li>
-      </ul>
-    </div>
+      <!-- Project 1 -->
+      <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <img src="https://via.placeholder.com/600x400.png?text=Project+1" alt="Project 1" style="width: 100%; height: 220px; object-fit: cover;">
+        <div style="padding: 20px;">
+          <h3>File Sharing Website</h3>
+          <p>A simple web app for uploading and sharing files securely with friends.</p>
+          <a href="https://your-live-link-here.com" target="_blank" style="display: inline-block; padding: 10px 20px; background: #0077ff; color: white; text-decoration: none; border-radius: 6px;">View Project →</a>
+        </div>
+      </div>
 
-    <div class="card">
-      <h2>Photos</h2>
-      <p>Research, conferences, personal moments.</p>
+      <!-- Project 2 (add as many as you want) -->
+      <div style="background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.1);">
+        <img src="https://via.placeholder.com/600x400.png?text=Project+2" alt="Project 2" style="width: 100%; height: 220px; object-fit: cover;">
+        <div style="padding: 20px;">
+          <h3>Personal Blog</h3>
+          <p>A clean blog built with HTML & CSS to share my thoughts.</p>
+          <a href="#" style="display: inline-block; padding: 10px 20px; background: #0077ff; color: white; text-decoration: none; border-radius: 6px;">View Project →</a>
+        </div>
+      </div>
+
+      <!-- Add more projects here... -->
+
     </div>
   </section>
 
-  <footer>
-    © 2025 Prajwol
+  <!-- Footer (optional) -->
+  <footer style="text-align: center; padding: 40px; background: #222; color: white;">
+    <p>© 2025 Prajwol — Get in touch: your.email@example.com</p>
   </footer>
 </body>
-</html>
